@@ -1,0 +1,21 @@
+[{"id":1,
+    "date":"05-02-2021",
+"lepidoptera":[
+    {"id":2},
+    {"id":1}
+],
+"notes":null,
+"temperature":76,
+"humidity":80
+},
+{
+    "id":2,
+    "date":"05-02-2021",
+"birds":[
+    {"id":2}
+],
+"notes":"Seen on a saw palmetto",
+"temperature":79,
+"humidity":69
+}
+]
