@@ -4,7 +4,7 @@ var jsonFile = require('../public/json/birds.json');
 
 /* GET birds listing. */
 router.get('/', function(req, res, next) {
-  res.json(jsonFile)
+  res.render('birds.jade', { birdList: jsonFile });
 });
 router.get('/:id', function(req, res, next) {
   var id = +req.params.id; // will contains data from :id, the + is to parse string to integer
