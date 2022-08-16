@@ -1,44 +1,44 @@
 [{
 "commonName":"Blue-footed booby",
-"latinName":null,
+"latinName":"Sula nebouxii"  ,
 "id":1},
 {"commonName":"Hoopoe",
-"latinName":null,
+"latinName":"Upupa epops",
 "id":2
 },
 {
 "commonName":"Shoebill",
-"latinName":null,
+"latinName":"Balaeniceps rex",
 "id":3
 },
 {"commonName":"Bananquit",
-"latinName":null,
+"latinName":"Coereba flaveola",
 "id":4},
 {
 "commonName":"Greater roadrunner",
-"latinName":null,
+"latinName":"Geococcyx californianus",
 "id":5},
 {"commonName":"Canada goose",
-"latinName":null,
+"latinName":"Branta canadensis",
 "id":6},
 {
 "commonName":"Sulfur-crested cockatoo",
-"latinName":null,
+"latinName":"Cacatua sulphureus",
 "id":7
     },
 {
 "commonName":"Red-shouldered hawk",
-"latinName":null,
+"latinName":"",
 "id":8
         },
 {
 "commonName":"Common loon",
-"latinName":null,
+"latinName":"Gavia immer",
 "id":9
             },
 {
 "commonName":"Harpie eagle",
-"latinName":null,
+"latinName":"Harpia harpyja",
 "id":10
                 }
 ]

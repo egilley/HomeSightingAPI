@@ -1,0 +1,11 @@
+doctype html
+html
+head
+    title=title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+body
+    h1 Sightings Results
+
+    ul
+        each item in sightingsList
+            li=  item.id +" - " + item.date + " - " +item.notes

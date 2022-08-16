@@ -3,9 +3,11 @@ var router = express.Router();
 var jsonFile = require('../public/json/sightings.json');
 
 /* GET sightings listing. */
-router.get('/', function(req, res, next) {
-  res.json(jsonFile)
-});
+
+router.get('/', function(req, res) {
+  // var result = res.json(jsonFile)
+   res.render('sightings.jade', { sightingsList: jsonFile });
+ });
 router.get('/:id', function(req, res, next) {
   var id = +req.params.id; // will contains data from :id, the + is to parse string to integer
     var result = jsonFile.find(u => u.id === id); // find id using .find method
