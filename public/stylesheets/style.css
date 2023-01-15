@@ -10,3 +10,17 @@ a {
 li {
  color: #bb7700
 }
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: rgb(138, 170, 50);
+}
+
+th {
+  background-color: #8bb0a2;
+}
